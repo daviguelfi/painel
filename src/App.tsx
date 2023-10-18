@@ -1,13 +1,15 @@
-import React from "react";
-import { Search } from "@dasa-health/alma-react";
+import React from 'react'
+
+import MainRoutes from './routes'
+
+import { ThemeWrapper } from './theme/ThemeWrapper'
 
 function App() {
   return (
-    <div className="App">
-      oi
-      <Search placeholder="Search" />
-    </div>
-  );
+    <ThemeWrapper>
+      <MainRoutes />
+    </ThemeWrapper>
+  )
 }
 
-export default App;
+export default App
